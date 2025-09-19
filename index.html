@@ -33,12 +33,16 @@
       box-shadow: 0 4px 24px 0 rgba(60,80,120,0.08);
       padding: 32px 24px;
       max-width: 95vw;
+      width: 100vw;
+      height: 80vh; /* aumenta a altura do container */
     }
     .video-container iframe {
       border-radius: 12px;
       box-shadow: 0 2px 12px 0 rgba(60,80,120,0.10);
-      max-width: 100%;
-      height: auto;
+      width: 90vw;
+      height: 70vh;
+      max-width: 1280px;
+      max-height: 720px;
       aspect-ratio: 16/9;
     }
   </style>
@@ -46,7 +50,7 @@
 <body>
   <div class="center-container">
     <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/S0OAFJaQjg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/S0OAFJaQjg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </body>
